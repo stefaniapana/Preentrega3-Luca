@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.minavbar {
+  background-color: #798478 !important;
+}
+
+.bannerindex {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10%;
+  background-image: url(/imagenes/imagen3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bannerindex .tituloindex {
+  color: #eae0cc;
+  font-size: 40px;
+  text-align: center;
+}
+.bannerindex .subtituloindex {
+  color: #eae0cc;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bannereventos {
+  height: auto;
+  width: 100%;
+  background-color: #eae0cc;
+}
+.bannereventos .tituloeventos {
+  color: #4d6a6d;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.eventos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+.eventos .evento {
+  background-color: #798478;
+  padding: 7%;
+  border-radius: 10px;
+  height: 500px;
+  width: 280px;
+  text-align: center;
+  color: #eae0cc;
+  font-size: 16px;
+  text-align: center;
+}
+.eventos .evento .fechaevento {
+  color: #eae0cc;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+.eventos .evento .tituloevento {
+  color: antiquewhite;
+  font-size: 35px;
+  text-align: center;
+}
+.eventos .evento .imagenevento {
+  height: 200px;
+  padding: 5%;
+  padding-bottom: 10%;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  background-color: #798478;
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  height: 180px;
+  color: antiquewhite;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .tituloFooter {
+  font-size: 20px;
+}
+footer .redesSociales {
+  font-size: 25px;
+  display: inline-block;
+  word-spacing: 40px;
+  margin-top: -60%;
+}
+footer .redesSociales a {
+  text-decoration: none;
+  list-style: none;
+  color: #eae0cc;
+}
+footer .parrafoFooter {
+  font-size: 14px;
+}
+footer .parraforedessociales {
+  font-size: 14px;
+}
+
+.bannerquiensoy {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10%;
+  background-image: url(/imagenes/imagen3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bannerquiensoy .tituloquiensoy {
+  color: #eae0cc;
+  font-size: 40px;
+  text-align: center;
+}
+.bannerquiensoy .parrafoquiensoy {
+  color: #eae0cc;
+  font-size: 20px;
+  text-align: center;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-height: 460px !important;
+}
+
+.bannermusica {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 10%;
+  background-image: url(/imagenes/imagen3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  width: 500px;
+  background-color: #c9ada1;
+}
+.bannermusica .titulomusica {
+  color: #eae0cc;
+  font-size: 40px;
+  text-align: center;
+}
+.bannermusica .subtitulomusica {
+  color: #eae0cc;
+  font-size: 20px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
